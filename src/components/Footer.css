@@ -1,0 +1,9 @@
+footer {
+    background-color: var(--honeydew);
+    color: var(--lavender-floral);
+    padding: 2px;
+    margin: 0px;
+    font-size: 12px;
+    text-align: end;
+    text-transform: uppercase;
+  }

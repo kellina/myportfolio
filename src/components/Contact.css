@@ -1,0 +1,38 @@
+.contact {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+  }
+  
+  .contact-links a {
+    font-size: 15px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease-out;
+    text-shadow: 2px 2px 1px var(--indigo-dye);
+  }
+  
+  .contact-details i {
+    font-size: 25pt;
+  
+  }
+  
+  .contact-details:hover {
+    transform: translateY(-8px);
+  }

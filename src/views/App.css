@@ -1,0 +1,51 @@
+:root {
+  --international-orange-engineering: #BA2D0B;
+  --lavender-floral: #9D8DF1;
+  --honeydew: #D5F2E3;
+  --ocean-green: #73BA9B;
+  --indigo-dye: #08415C;
+  --white: #fff;
+  --black: #000;
+  --gray: #ccc;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+
+a {
+  text-decoration: none;
+  color: var(--white);
+} 
+
+p {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+#tsparticles {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--ocean-green);
+  position: fixed;
+  z-index: -1;
+}

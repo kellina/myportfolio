@@ -1,0 +1,46 @@
+.welcome-section {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: inherit;
+  }
+  
+  .welcome-section h1 {
+    font-size: 40pt;
+    text-shadow: 2px 2px 1px var(--honeydew);
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--international-orange-engineering);
+  }
+  
+  .welcome-section a {
+    border: 1px solid var(--honeydew);
+    border-radius: 35px;
+    background-color: var(--ocean-green);
+    color: var(--white);
+    width: 200px;
+    padding: 20px 15px;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1em;
+    font-style: italic;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20%;
+    transition: all .2s ease; /* Add transição*/
+  }
+  
+  .welcome-section a:hover {
+    background-color: var(--white);
+    color: var(--ocean-green);
+  }

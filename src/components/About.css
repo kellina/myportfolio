@@ -1,0 +1,15 @@
+#about {
+    text-align: justify;
+    background-color: var(--honeydew);
+    color: var(--indigo-dye);
+    padding: 30px 40px;
+    height: 25%;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+#about p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
