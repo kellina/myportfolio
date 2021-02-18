@@ -5,7 +5,9 @@
   }
 
   .projects-section>h2 {
-    padding-top: 60px;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 1.6em;
   } 
   
   #projects-grid {
@@ -26,14 +28,14 @@
   }
   
   .code {
-    color: var(--international-orange-engineering);
+    font-size: 1.2em;
+    color: #222;
     transition: color 0.3s ease-out;
   }
   
   .project:hover .code {
-    color: var(--black);
+    color: #444;
   }
-  
   
   div.gallery {
     border: 1px solid #ccc;
@@ -52,6 +54,33 @@
     padding: 20px;
     text-align: center;
     margin: 0;
-    background-color: var(--international-orange-engineering);
+    color: #222;
+    background-color: var(--ocean-green);
+    transition: color 0.3s ease-out;
+  }
+  .project-title:hover {
+    color: #444;
   }
   
+  @media screen and (max-width: 700px) {
+    .projects-section{
+      display: flex;
+      flex-direction: column;
+    }
+    .projects-section>h2{
+      font-size: 00.8em;
+    }
+    #projects-grid{
+      width: 25em;
+      align-self: center;
+      margin: 0;
+    }
+    .project-title {
+      background-color: lawngreen;
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      font-size: 0.8em;
+    }
+    
+  }

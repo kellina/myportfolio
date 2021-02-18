@@ -1,5 +1,5 @@
 .contact {
-    padding: 10px;
+    padding-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,16 +8,18 @@
   .contact p {
     display: flex;
     justify-content: center;
+    font-size: 1.4em;
   }
   
   .contact-links {
     display: flex;
     justify-content: space-around;
     width: 90vw;
+    padding-bottom: 20px;
   }
   
   .contact-links a {
-    font-size: 15px;
+    font-size: 1.2em;
   }
   
   .contact-details {
@@ -25,14 +27,33 @@
     flex-direction: column;
     align-items: center;
     transition: transform 0.3s ease-out;
-    text-shadow: 2px 2px 1px var(--indigo-dye);
   }
   
   .contact-details i {
-    font-size: 25pt;
+    font-size: 1.6em;
   
   }
   
   .contact-details:hover {
     transform: translateY(-8px);
+  }
+
+  @media screen and (max-width: 700px) {
+    .contact{
+      display: flex;
+      flex-direction: column;
+    }
+    .contact-title{
+      align-self: center;
+      font-size: 0.6em;
+
+    }
+    .contact-links{
+      align-self: center;
+      padding-bottom: 20px;
+    }
+    .contact-links a{
+      font-size: 0.8em;
+    }
+  
   }

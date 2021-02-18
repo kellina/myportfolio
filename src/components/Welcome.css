@@ -9,14 +9,14 @@
   }
   
   .welcome-section h1 {
-    font-size: 40pt;
+    font-size: 3.2em;
     text-shadow: 2px 2px 1px var(--honeydew);
   }
   
   .welcome-section p {
-    font-size: 18px;
+    font-size: 1.5em;
     font-style: italic;
-    color: var(--international-orange-engineering);
+    color: var(--black);
   }
   
   .welcome-section a {
